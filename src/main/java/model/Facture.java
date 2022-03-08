@@ -41,6 +41,6 @@ public class Facture {
         this.idClient = idClient;
     }
     public void afficherFacture(){
-        System.out.println("Article ( id: "+getNumFacture()+" , date: "+getDateFacture()+" , id client: "+getIdClient());
+        System.out.println("Facture ( id: "+getNumFacture()+" , date: "+getDateFacture()+" , id client: "+getIdClient());
     }
 }
