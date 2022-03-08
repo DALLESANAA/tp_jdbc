@@ -4,7 +4,6 @@ import dao.ConnectionBD;
 import dao.DAOFacture;
 import model.Article;
 import model.Facture;
-
 import java.sql.Date;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

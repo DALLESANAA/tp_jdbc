@@ -34,21 +34,5 @@ public class DAOClientImp implements DAOClient {
         }
     }
 
-   /* public Client getClient(Integer idClient){
-        String requete="select id_client,nom,prenom from client where id_client=?";
-        try{
-            PreparedStatement ps=ConnectionBD.getConnection().prepareStatement(requete);
-            ps.setInt(1,idClient);
-            ResultSet rs=ps.executeQuery();
-            if(rs.next()){
-                Client client=new Client();
-                client.setIdClient(rs.getInt(1));
-                client.setNom(rs.getString(2));
-                client.setPrenom(rs.getString(3));
-            }
 
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-    }*/
 }
